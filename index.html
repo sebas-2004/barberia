@@ -1,0 +1,63 @@
+9865<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Reserva tu Turno - Barbería Estilo</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>💈 Barbería Estilo</h1>
+      <p>Reserva tu turno con nuestros mejores barberos</p>
+    </header>
+
+    <form id="formReserva" class="form-card">
+      <h2>Agendar Cita</h2>
+
+      <div class="input-group">
+        <label for="nombre">Nombre completo</label>
+        <input type="text" id="nombre" placeholder="Tu nombre" required>
+      </div>
+
+      <div class="input-group">
+        <label for="telefono">Teléfono</label>
+        <input type="tel" id="telefono" placeholder="Ej: 3104567890" required>
+      </div>
+
+      <div class="input-group">
+        <label for="fecha">Fecha</label>
+        <input type="date" id="fecha" required>
+      </div>
+
+      <div class="input-group">
+        <label for="hora">Hora</label>
+        <select id="hora" required>
+          <option value="">Selecciona una hora</option>
+          <option value="8:00">9:00 AM</option>
+          <option value="9:00">10:00 AM</option>
+          <option value="10:00">11:00 AM</option>
+          <option value="11:00">12:00 AM</option>
+          <option value="12:00">1:00 PM</option>
+          <option value="1:00">2:00 PM</option>
+          <option value="2:00">3:00 PM</option>
+          <option value="3:00">4:00 PM</option>
+          <option value="4:00">5:00 PM</option>
+          <option value="5:00">6:00 PM</option>
+          <option value="6:00">7:00 PM</option>
+          <option value="7:00">8:00 PM</option>
+        </select>
+      </div>
+
+      <button type="submit" class="btn">Reservar Turno</button>
+    </form>
+  </div>
+
+  <footer>
+    <p>© 2025 Barbería Estilo | Cuidamos tu imagen 💇‍♂</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
